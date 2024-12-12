@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+	string A;
+	cin>>A;
+	string B;
+	cin>>B;
+
+
+cout<<A.size()<<" "<<B.size() <<endl;
+cout<<A+B<<endl;
+swap(A[0],B[0]);
+cout<<A<<" "<<B<<endl;
+	
+		
+	
+}
